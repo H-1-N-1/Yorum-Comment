@@ -1,0 +1,54 @@
+
+body {background-color: #f1f1f1; margin: auto; font: 12px/20px sans-serif}
+table, tr, td, ol, ul, li, h1, h2, h3, h4, h5, h6, p, input, form, textarea, button, select {padding: 0; margin: 0; list-style: none; border: 0}
+a {text-decoration: none}
+img {border: 0}
+* :focus {outline: 0}
+.clear {clear: both}
+* html ul li {display: inline-block}
+
+/* Tipsy CSS */
+.tipsy {padding: 5px; font-size: 10px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url("../images/tipsy.gif")}
+.tipsy-inner {padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: center}
+.tipsy-inner {-moz-border-radius:3px; -webkit-border-radius:3px}
+.tipsy-north {background-position: top center}
+.tipsy-south {background-position: bottom center}
+.tipsy-east {background-position: right center}
+.tipsy-west {background-position: left center}
+
+/* Genel */
+#genel {width: 950px; margin: 0 auto; overflow: hidden}
+
+/* Sol */
+#sol {float: left; width: 690px}
+
+/* Yorum Yap */
+#yorumYap {background-color: #fff; padding: 10px; margin-top: 10px}
+#yorumYap textarea {width: 659px; height: 15px; border: 1px solid #ddd; font: 11px Arial; padding: 5px; resize: none; overflow: auto; background: url("../images/textareaBg.png") repeat-x}
+#yorumYap h3 {font-size: 14px; border-bottom: 1px solid #ddd; padding-bottom: 4px; margin-bottom: 4px; color: #333}
+	.btn {height: 19px; display: block; background: url("../images/btnBg.png") repeat-x; line-height: 19px; color: #fff; text-align: center; padding: 0 5px}
+		#gonder {float: right; margin-top: 5px}
+		#yGonder {display: none}
+		#yGonder span {font-size: 11px; color: #656565; padding: 5px 5px 5px 0; display: block; cursor: pointer; float: left}
+		
+/* Yorumlar */
+#yorumlar {background-color: #fff; padding: 10px}
+
+	/* Yorum */
+	.yorum {margin-bottom: 10px; padding-bottom: 10px; border-bottom: 3px solid #f1f1f1; line-height: 20px; color: #333}
+	.cevapla {float: right; border: 1px solid #ddd; padding: 0 3px; box-shadow: 0 0 5px #aaa; display: none; margin-top: -4px; font-size: 11px; cursor: pointer; background-color: #fff}
+		.cevapla:hover {background-color: #333; color: #fff}
+		.yorumaYorumYap {background-color: #eee; padding: 5px; display: none}
+			.yorumaYorumYap textarea {width: 650px; padding: 5px; height: 40px; font: 12px Arial; color: red; resize: none; overflow: auto}
+		.yyyGizli {overflow: auto; padding: 0}
+		.yyyGizli span {display: block; padding-top: 5px; font-size: 11px; cursor: pointer; float: left}
+		
+		/* Alt Yorumlar */
+		#altYorumlar {padding-left: 60px; border-top: 3px solid #f1f1f1; margin-top: 10px; background: url("../images/altYorumBg.png") no-repeat top left}
+		.alt_yorum {padding: 5px}
+		.ad{width:655px;padding-left:5px;padding-top:5px;height:25px;border:1px solid #ccc;margin-bottom:10px;}
+		
+		/* Daha Fazlasý */
+		.dahaFazlasi {background-color: #f1f1f1; border: 1px solid #ddd; padding: 5px; text-align: center; cursor: pointer; font-size: 14px}
+		.dahaFazlasi:hover {background-color: #eee; border: 1px solid #ccc}
+		.dahaFazlasi a{padding-left:10px;font-weight:bold;}
